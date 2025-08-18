@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+p { 
+    color: rgb(236, 146, 214);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+}
+
+img {
+    display: block;   /* hace que la imagen sea bloque */
+    margin: 20px auto; /* auto en los costados la centra */
+    width: 50%;
+    height: auto;
+}
